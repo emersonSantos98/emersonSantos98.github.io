@@ -5,7 +5,8 @@
     /*====== Colors ======*/
     --hue-color:242;
     /* HSL Color Mode */
-    --skin-color: hsl(342, 92%, 46%);
+    /*--skin-color: hsl(342, 92%, 46%);*/
+    --skin-color: hsl(0, 80%, 39%, 1);
     --title-color: hsl(var(--hue-color), 8%, 95%);
     --text-color: hsl(var(--hue-color), 8%, 85%);
     --body-color: hsl(var(--hue-color), 19%, 5%);
@@ -207,7 +208,7 @@ input {
 
 .nav__toggle {
    height: 32px;
-    width: 32px;
+    width: 36px;
     cursor: pointer;
     position: fixed;
     right: 1.5rem;
@@ -1204,7 +1205,7 @@ textarea.input{
     .services__container {
         grid-template-columns: repeat(3, 220px);
     }
-    .testimonials__card {
+    .testimonial__card {
         padding: 1.25rem 1.5rem;
     }
     .portifolio__item-details {
