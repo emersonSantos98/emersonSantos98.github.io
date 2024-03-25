@@ -387,6 +387,9 @@ input {
 .button__icon {
     font-size: 1.25rem;
 }
+
+
+
 /*========== ABOUT SECTION ==========*/
 .about__container {
     grid-template-columns: repeat(2, 1fr);
@@ -1138,7 +1141,7 @@ textarea.input{
     .nav__menu {
         height: 100%;
         width: 100%;
-        transform: rotate(0)translateX(0);
+        transform: rotate(0deg)translateX(0);
         display: flex;
         justify-content: center;
     }
